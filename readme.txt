@@ -13,6 +13,7 @@ npx nx run-many --target=build --all --verbose
 npx nx graph
 npx nx show project @mymonorepo/demo
 
-
+--- release ---
+npx nx release --first-release --dry-run
 
 
