@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import { Button } from '@mymonorepo/buttons';
 
-export function TuskForm(props: any) {
-  return;
+export function Form(props: any) {
+  return (
   <>
     <div>I'm supposed to be a form 🤷‍♂️</div>
     <Button />
-  </>;
+  </>);
 }
 
-export default TuskForm;
+export default Form;

@@ -16,4 +16,5 @@ npx nx show project @mymonorepo/demo
 --- release ---
 npx nx release --first-release --dry-run
 
-
+--- Start Demo project ---
+npx nx serve @mymonorepo/demo
